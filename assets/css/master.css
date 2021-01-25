@@ -33,7 +33,7 @@ header h1 {
 
 .container {
     position: relative;
-    width: 42rem;
+    width: 56rem;
     height: 48rem;
     margin: 0 auto;
 }
@@ -98,31 +98,55 @@ img {
 }
 
 .c-4 {
+    left: 42rem;
+    top: 0;
+}
+
+.c-5 {
     left: 0;
     top: 16rem;
 }
 
-.c-5 {
-    left: 14rem;
-    top: 16rem;
-}
-
 .c-6 {
-    left: 28rem;
+    left: 14rem;
     top: 16rem;
 }
 
 .c-7 {
+    left: 28rem;
+    top: 16rem;
+}
+
+.c-8 {
+    left: 42rem;
+    top: 16rem;
+}
+
+.c-9 {
     left: 0rem;
     top: 32rem;
 }
 
-.c-8 {
+.c-10 {
     left: 14rem;
     top: 32rem;
 }
 
-.c-9 {
+.c-11 {
     left: 28rem;
     top: 32rem;
+}
+
+.c-12 {
+    left: 42rem;
+    top: 32rem;
+}
+
+
+/* FOOTER */
+
+footer {
+    color: black;
+    text-align: center;
+    margin: 1rem;
 }
