@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chango', cursive;
+}
+
+body {
+    background-color: #ADD8E6;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* UTILITY */
+
+.radious {
+    border-radius: 1rem;
+}
+
+
+/* HEADER */
+
+header h1 {
+    text-align: center;
+    margin: 2rem;
+    color: white;
+    font-size: 6rem;
+}
+
+
+/* MAIN */
+
+.container {
+    position: relative;
+    width: 42rem;
+    height: 48rem;
+    margin: 0 auto;
+}
+
+.card {
+    width: 12rem;
+    height: 14rem;
+    margin: 1rem;
+    position: absolute;
+}
+
+
+/* CARD */
+
+h2 {
+    position: absolute;
+    z-index: 5;
+    bottom: 1rem;
+    color: red;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.bg-w {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+}
+
+.bg-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/img/pattern.png);
+    background-size: contain;
+    position: absolute;
+    z-index: 10;
+}
+
+img {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    z-index: 5;
+    background-color: white;
+}
+
+.card:hover .bg-img {
+    z-index: 1;
+}
+
+.c-2 {
+    left: 14rem;
+    top: 0;
+}
+
+.c-3 {
+    left: 28rem;
+    top: 0;
+}
+
+.c-4 {
+    left: 0;
+    top: 16rem;
+}
+
+.c-5 {
+    left: 14rem;
+    top: 16rem;
+}
+
+.c-6 {
+    left: 28rem;
+    top: 16rem;
+}
+
+.c-7 {
+    left: 0rem;
+    top: 32rem;
+}
+
+.c-8 {
+    left: 14rem;
+    top: 32rem;
+}
+
+.c-9 {
+    left: 28rem;
+    top: 32rem;
+}
